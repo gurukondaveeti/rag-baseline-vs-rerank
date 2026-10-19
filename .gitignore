@@ -1,0 +1,12 @@
+# private / local only
+REPORT_GUIDE.md
+CLAUDE.md
+.claude/
+RAG_LMA_Assignment_v1.pdf
+gdpr.pdf
+*.pdf
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+results.zip
+colab/

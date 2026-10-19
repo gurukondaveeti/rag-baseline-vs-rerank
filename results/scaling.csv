@@ -1,0 +1,6 @@
+setup,seconds_per_query
+Bi-encoder search over 349 chunks,0.0168
+Bi-encoder top-10 + cross-encoder on 10,0.4531
+Cross-encoder on ALL 349 chunks,14.194
+"Cross-encoder on 100,000 chunks (extrapolated)",4067.1
+"Cross-encoder on 10,000,000 chunks (extrapolated)",406714.5

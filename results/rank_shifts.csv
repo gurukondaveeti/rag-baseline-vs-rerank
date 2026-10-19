@@ -1,0 +1,11 @@
+id,category,query,baseline_rank,reranked_rank,verdict
+Q1,Keyword trap,What is the maximum penalty amount a company can be charged for violating this regulation?,2.0,1.0,Both pipelines OK
+Q2,Keyword trap,How fast must a company report a hack to the regulator?,3.0,3.0,Both pipelines OK
+Q3,Keyword trap,At what age can a kid sign up for a social media app without asking their parents?,1.0,1.0,Both pipelines OK
+Q4,Exception / corner case,Does a small business with only 50 employees still have to maintain records of its processing activities?,,,Gold not in top-10 (re-ranker cannot recover it)
+Q5,Exception / corner case,In what situations can a company refuse my request to delete my personal data?,,,Gold not in top-10 (re-ranker cannot recover it)
+Q6,Exception / corner case,Does the GDPR apply to a person keeping a list of friends' phone numbers and birthdays?,10.0,1.0,RE-RANK FIXED IT
+Q7,Negation / constraint,In which situations is a company NOT required to tell affected people about a data breach?,1.0,1.0,Both pipelines OK
+Q8,Negation / constraint,Is it prohibited to process data about someone's religion or health?,4.0,1.0,RE-RANK FIXED IT
+Q9,Negation / role limit,Can the company fire its data protection officer for doing their job?,1.0,1.0,Both pipelines OK
+Q10,Negation / constraint,Is a company allowed to make important decisions about me using only a computer algorithm?,1.0,1.0,Both pipelines OK

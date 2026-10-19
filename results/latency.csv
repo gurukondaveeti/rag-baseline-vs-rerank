@@ -1,0 +1,5 @@
+stage,mean_ms,min_ms,max_ms,x_vs_baseline_retrieval
+P1: embed query + FAISS top-10 (+ take top-3),10.96,6.04,13.94,1.0
+Cross-encoder scoring of 10 pairs + sort,303.25,199.87,379.33,27.7
+P2: total retrieval (bi-encoder + re-rank),328.26,210.52,407.84,30.0
+LLM generation (same for both),1637.4,722.6,4994.0,149.4
